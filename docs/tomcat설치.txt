@@ -58,7 +58,7 @@
 
 </tomcat-users>
 ========================================================
-   2) /usr/local/douzone/tomcat/webapps/manager/META-INF/context.xml
+   2) /usr/local/douzone/tomcat/webapps/manager/META-INF/	
 ========================================================
  주석 처리
 <Context>

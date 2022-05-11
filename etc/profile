@@ -84,3 +84,7 @@ unset -f pathmunge
 export JAVA_HOME=/usr/local/douzone/java
 export CLASSPATH=$JAVA_HOME/lib/tools.jar
 export PATH=$PATH:$JAVA_HOME/bin
+
+# git
+export PATH=/usr/local/douzone/git/bin:$PATH
+
