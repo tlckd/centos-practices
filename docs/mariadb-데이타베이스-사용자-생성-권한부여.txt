@@ -21,7 +21,7 @@ MariaDB [none]> flush privileges;
 
 3. 특정 IP(windows 192.168.80.31)의 접속 계정 webdb 생성 
 1) user 생성
-MariaDB [none]> create user 'webdb'@'192.168.80.31' identified by 'webdb';
+MariaDB [none]> create user 'webdb'@'192.168.10.3' identified by 'webdb';
 
 2) 권한 부여
 MariaDB [none]> grant all privileges on webdb.* to 'webdb'@'192.168.80.31';
